@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Environment / Server Timeout",
+    "matchedStatuses": ["failed", "broken"],
+    "messageRegex": ".*Timeout.*exceeded.*page\\.goto.*"
+  },
+  {
+    "name": "Product Defect",
+    "matchedStatuses": ["failed"],
+    "messageRegex": "^((?!Timeout).)*$"
+  },
+  {
+    "name": "Test Script Issue",
+    "matchedStatuses": ["broken"]
+  },
+  {
+    "name": "Known Issues (Tracked)",
+    "matchedStatuses": ["skipped"]
+  }
+]

@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Playwright artifacts
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Allure artifacts
+/allure-results/
+/allure-report/
+
+# Auth session
+.auth/
+
+# Environment variables
+.env
+.env.local
+
+# Editor
+.vscode/*
+!.vscode/settings.json
+
+# OS
+.DS_Store
+Thumbs.db
